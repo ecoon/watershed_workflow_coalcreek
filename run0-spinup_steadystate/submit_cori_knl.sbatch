@@ -2,10 +2,10 @@
 
 #SBATCH --account=m3940
 #SBATCH --constraint=knl
-#SBATCH --qos=debug
+#SBATCH --qos=regular
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=68
-#SBATCH --time=00:30:00
+#SBATCH --time=24:00:00
 #SBATCH --job-name=CoalCreek-spinup_steadystate
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user coonet@ornl.gov
