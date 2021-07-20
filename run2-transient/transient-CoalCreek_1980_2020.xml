@@ -503,185 +503,185 @@
           <ParameterList name="GLHYMPS-715639" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715639" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="2.5117435e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="GLHYMPS-715779" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715779" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00077508992" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="GLHYMPS-715766" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715766" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00029386018" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="GLHYMPS-730801" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-730801" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0075744671" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-498185" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-498185" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3199163" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="9.2094393e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.2402695" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-498205" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-498205" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4575586" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00013924195" />
+            <Parameter name="residual saturation [-]" type="double" value="0.18159778" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-498206" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-498206" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4575586" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00013924195" />
+            <Parameter name="residual saturation [-]" type="double" value="0.18159778" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-498208" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-498208" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4209381" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.0579228e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.20831551" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-498231" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-498231" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4167836" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="5.9035462e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.21328539" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509477" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509477" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.38318" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00010265437" />
+            <Parameter name="residual saturation [-]" type="double" value="0.17513328" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509479" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509479" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3745401" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.9446467e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.23088513" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509481" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509481" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3745401" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.9446467e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.23088513" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509482" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509482" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.39776" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="9.2037249e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.20787742" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509513" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509513" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3957462" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.1744735e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.21959739" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509514" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509514" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3404291" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.8995889e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.24180143" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509529" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509529" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4060907" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001569848" />
+            <Parameter name="residual saturation [-]" type="double" value="0.19681129" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509532" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509532" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4225781" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="8.7133764e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.19978347" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509548" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509548" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4336852" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00010383501" />
+            <Parameter name="residual saturation [-]" type="double" value="0.18931355" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509559" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509559" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.4100099" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="7.8032807e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.21087045" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509561" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509561" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3328173" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="8.0716734e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.2466648" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509733" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509733" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.762072" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0002205275" />
+            <Parameter name="residual saturation [-]" type="double" value="0.15736573" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="NRCS-509794" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="NRCS-509794" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.3674083" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00014037161" />
+            <Parameter name="residual saturation [-]" type="double" value="0.2209622" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
           <ParameterList name="bedrock" type="ParameterList">
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="bedrock" />
-            <Parameter name="van Genuchten n [-]" type="double" value="1.5" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0001" />
-            <Parameter name="residual saturation [-]" type="double" value="0.05" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 3" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="1.1253988e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
         </ParameterList>
