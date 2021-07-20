@@ -290,7 +290,7 @@
   <ParameterList name="cycle driver" type="ParameterList">
     <Parameter name="start time" type="double" value="274" />
     <Parameter name="start time units" type="string" value="d" />
-    <Parameter name="end time" type="double" value="639" />
+    <Parameter name="end time" type="double" value="14874" />
     <Parameter name="end time units" type="string" value="d" />
     <Parameter name="end cycle" type="int" value="10000" />
     <Parameter name="max time step size [s]" type="double" value="86400" />
@@ -1666,7 +1666,7 @@
           <Parameter name="Priestley-Taylor alpha of snow [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of bare ground [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of canopy [-]" type="double" value="1.26" />
-          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="0.63" />
+          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="1.26" />
           <Parameter name="albedo of bare ground [-]" type="double" value="0.4" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="0.98" />
           <Parameter name="albedo of canopy [-]" type="double" value="0.11" />
@@ -1688,7 +1688,7 @@
           <Parameter name="Priestley-Taylor alpha of snow [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of bare ground [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of canopy [-]" type="double" value="1.26" />
-          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="0.63" />
+          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="1.26" />
           <Parameter name="albedo of bare ground [-]" type="double" value="0.4" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="0.98" />
           <Parameter name="albedo of canopy [-]" type="double" value="0.1" />
@@ -1710,7 +1710,7 @@
           <Parameter name="Priestley-Taylor alpha of snow [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of bare ground [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of canopy [-]" type="double" value="1.26" />
-          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="0.63" />
+          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="1.26" />
           <Parameter name="albedo of bare ground [-]" type="double" value="0.4" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="0.98" />
           <Parameter name="albedo of canopy [-]" type="double" value="0.07" />
@@ -1732,7 +1732,7 @@
           <Parameter name="Priestley-Taylor alpha of snow [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of bare ground [-]" type="double" value="1.26" />
           <Parameter name="Priestley-Taylor alpha of canopy [-]" type="double" value="1.26" />
-          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="0.63" />
+          <Parameter name="Priestley-Taylor alpha of transpiration [-]" type="double" value="1.26" />
           <Parameter name="albedo of bare ground [-]" type="double" value="0.4" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="0.98" />
           <Parameter name="albedo of canopy [-]" type="double" value="0.11" />
@@ -1797,6 +1797,24 @@
           <Parameter name="functional" type="string" value="average" />
           <Parameter name="location name" type="string" value="cell" />
           <Parameter name="time integrated" type="bool" value="true" />
+        </ParameterList>
+        <ParameterList name="relative humidity [-]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-relative_humidity" />
+          <Parameter name="region" type="string" value="surface domain" />
+          <Parameter name="functional" type="string" value="average" />
+          <Parameter name="location name" type="string" value="cell" />
+        </ParameterList>
+        <ParameterList name="incoming shortwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incoming_shortwave_radiation" />
+          <Parameter name="region" type="string" value="surface domain" />
+          <Parameter name="functional" type="string" value="average" />
+          <Parameter name="location name" type="string" value="cell" />
+        </ParameterList>
+        <ParameterList name="incident shortwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incident_shortwave_radiation" />
+          <Parameter name="region" type="string" value="surface domain" />
+          <Parameter name="functional" type="string" value="average" />
+          <Parameter name="location name" type="string" value="cell" />
         </ParameterList>
         <ParameterList name="surface water content [mol]" type="ParameterList">
           <Parameter name="variable" type="string" value="surface-water_content" />
