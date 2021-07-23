@@ -387,7 +387,7 @@
       <Parameter name="initial time step" type="double" value="8640" />
       <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="value" type="double" value=" 0" />
+        <Parameter name="restart file" type="string" value="../run0-spinup_steadystate/CoalCreek-0/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="inverse" type="ParameterList">
@@ -492,8 +492,7 @@
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="hydrostatic head [m]" type="double" value="-0.5" />
-        <Parameter name="hydrostatic water density [kg m^-3]" type="double" value="1000" />
+        <Parameter name="restart file" type="string" value="../run0-spinup_steadystate/CoalCreek-0/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="water retention evaluator" type="ParameterList">

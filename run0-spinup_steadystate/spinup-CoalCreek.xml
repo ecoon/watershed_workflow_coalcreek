@@ -308,19 +308,19 @@
   </ParameterList>
   <ParameterList name="visualization">
     <ParameterList name="domain">
-      <Parameter name="cycles start period stop" type="Array(int)" value="{0, 200, -1}" />
+      <Parameter name="cycles start period stop" type="Array(int)" value="{0,200,-1}" />
       <Parameter name="times" type="Array(double)" value="{20000}" />
       <Parameter name="times units" type="string" value="d" />
     </ParameterList>
     <ParameterList name="surface">
-      <Parameter name="cycles start period stop" type="Array(int)" value="{0, 200, -1}" />
+      <Parameter name="cycles start period stop" type="Array(int)" value="{0,200,-1}" />
       <Parameter name="times" type="Array(double)" value="{20000}" />
       <Parameter name="times units" type="string" value="d" />
     </ParameterList>
   </ParameterList>
 
   <ParameterList name="checkpoint">
-    <Parameter name="cycles start period stop" type="Array(int)" value="{0, 1000, -1}" />
+    <Parameter name="cycles start period stop" type="Array(int)" value="{0,1000,-1}" />
   </ParameterList>
 
   <ParameterList name="PKs">
