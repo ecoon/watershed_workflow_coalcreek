@@ -340,7 +340,7 @@
       <Parameter name="initial time step" type="double" value="8640" />
       <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="value" type="double" value=" 0" />
+        <Parameter name="restart file" type="string" value="../run0-spinup_steadystate/NAME-0/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="inverse" type="ParameterList">
