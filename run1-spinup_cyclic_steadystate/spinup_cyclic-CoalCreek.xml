@@ -1760,6 +1760,11 @@
     </ParameterList>
   </ParameterList>
 
+  <ParameterList name="checkpoint">
+    <Parameter name="times start period stop" type="Array(double)" value="{274,365,-1}" />
+    <Parameter name="times start period stop units" type="string" value="d" />
+  </ParameterList>
+
   <ParameterList name="observations" type="ParameterList">
     <ParameterList name="fluxes" type="ParameterList">
       <Parameter name="observation output filename" type="string" value="water_balance.dat" />

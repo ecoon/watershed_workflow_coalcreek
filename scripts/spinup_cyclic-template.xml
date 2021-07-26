@@ -1746,6 +1746,7 @@
 
     </ParameterList>
   </ParameterList>
+
   <ParameterList name="visualization">
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{274,10,-1}" />
@@ -1758,6 +1759,11 @@
       <Parameter name="time units" type="string" value="d" />
       <Parameter name="aliased domains" type="Array(string)" value="{canopy, snow}" />
     </ParameterList>
+  </ParameterList>
+
+  <ParameterList name="checkpoint">
+    <Parameter name="times start period stop" type="Array(double)" value="{274,365,-1}" />
+    <Parameter name="times start period stop units" type="string" value="d" />
   </ParameterList>
 
   <ParameterList name="observations" type="ParameterList">

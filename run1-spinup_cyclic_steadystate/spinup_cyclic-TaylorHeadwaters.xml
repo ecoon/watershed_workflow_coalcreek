@@ -724,7 +724,7 @@
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../run0-spinup_steadystate/NAME-0/checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../run0-spinup_steadystate/TaylorHeadwaters-0/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="water retention evaluator" type="ParameterList">
@@ -2744,6 +2744,11 @@
       <Parameter name="time units" type="string" value="d" />
       <Parameter name="aliased domains" type="Array(string)" value="{canopy, snow}" />
     </ParameterList>
+  </ParameterList>
+
+  <ParameterList name="checkpoint">
+    <Parameter name="times start period stop" type="Array(double)" value="{274,365,-1}" />
+    <Parameter name="times start period stop units" type="string" value="d" />
   </ParameterList>
 
   <ParameterList name="observations" type="ParameterList">
