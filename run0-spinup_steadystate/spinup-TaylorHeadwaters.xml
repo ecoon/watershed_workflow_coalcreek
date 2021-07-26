@@ -149,7 +149,7 @@
         <Parameter name="entity" type="string" value="CELL" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="GLHYMPS-715692" type="ParameterList">
+    <ParameterList name="GLHYMPS-729840" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="106" />
         <Parameter name="file" type="string" value="../../data-processed/TaylorHeadwaters.exo" />
@@ -157,7 +157,7 @@
         <Parameter name="entity" type="string" value="CELL" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="GLHYMPS-729840" type="ParameterList">
+    <ParameterList name="GLHYMPS-715692" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="107" />
         <Parameter name="file" type="string" value="../../data-processed/TaylorHeadwaters.exo" />
@@ -660,7 +660,7 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715497" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00012284347" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00017372691" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -668,7 +668,7 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715665" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00043586509" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00045944215" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -676,7 +676,7 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-715475" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0029226248" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0026047921" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -684,7 +684,7 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-726525" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0017352102" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0022401467" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -692,15 +692,7 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-726522" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00077508992" />
-            <Parameter name="residual saturation [-]" type="double" value="0.01" />
-            <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
-          </ParameterList>
-          <ParameterList name="GLHYMPS-715692" type="ParameterList">
-            <Parameter name="wrm type" type="string" value="van Genuchten" />
-            <Parameter name="region" type="string" value="GLHYMPS-715692" />
-            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="2.5117435e-05" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.00081701651" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -708,7 +700,15 @@
             <Parameter name="wrm type" type="string" value="van Genuchten" />
             <Parameter name="region" type="string" value="GLHYMPS-729840" />
             <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0075744671" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="2.5117435e-05" />
+            <Parameter name="residual saturation [-]" type="double" value="0.01" />
+            <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
+          </ParameterList>
+          <ParameterList name="GLHYMPS-715692" type="ParameterList">
+            <Parameter name="wrm type" type="string" value="van Genuchten" />
+            <Parameter name="region" type="string" value="GLHYMPS-715692" />
+            <Parameter name="van Genuchten n [-]" type="double" value=" 2" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0061640632" />
             <Parameter name="residual saturation [-]" type="double" value="0.01" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.05" />
           </ParameterList>
@@ -1208,7 +1208,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.01" />
+                <Parameter name="value" type="double" value="0.05" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -1248,8 +1248,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="GLHYMPS-715692" type="ParameterList">
-            <Parameter name="region" type="string" value="GLHYMPS-715692" />
+          <ParameterList name="GLHYMPS-729840" type="ParameterList">
+            <Parameter name="region" type="string" value="GLHYMPS-729840" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
@@ -1257,12 +1257,12 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="GLHYMPS-729840" type="ParameterList">
-            <Parameter name="region" type="string" value="GLHYMPS-729840" />
+          <ParameterList name="GLHYMPS-715692" type="ParameterList">
+            <Parameter name="region" type="string" value="GLHYMPS-715692" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.01" />
+                <Parameter name="value" type="double" value="0.05" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -1711,7 +1711,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="1.2589254e-11" />
+                <Parameter name="value" type="double" value="1e-11" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -1733,8 +1733,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="GLHYMPS-715692" type="ParameterList">
-            <Parameter name="region" type="string" value="GLHYMPS-715692" />
+          <ParameterList name="GLHYMPS-729840" type="ParameterList">
+            <Parameter name="region" type="string" value="GLHYMPS-729840" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
@@ -1742,12 +1742,12 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="GLHYMPS-729840" type="ParameterList">
-            <Parameter name="region" type="string" value="GLHYMPS-729840" />
+          <ParameterList name="GLHYMPS-715692" type="ParameterList">
+            <Parameter name="region" type="string" value="GLHYMPS-715692" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="3.0199517e-11" />
+                <Parameter name="value" type="double" value="1e-11" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
